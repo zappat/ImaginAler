@@ -6,6 +6,7 @@ from PIL import Image, ImageEnhance, ImageStat
 
 from imaginairy.api import imagine
 from imaginairy.enhancers.describe_image_blip import generate_caption
+# from imaginairy.schema import ControlInput, ImaginePrompt
 from imaginairy.schema import ControlInput, ImaginePrompt
 
 logger = logging.getLogger(__name__)
